@@ -2,10 +2,10 @@ import {BsFillMoonStarsFill} from 'react-icons/bs';
 import Image from 'next/image';
 import RImage from '../public/letter.png';
 import { FaGithub } from "react-icons/fa";
-import {AiFillTwitterCircle,AiFillLinkedin,AiFillYoutube} from 'react-icons/ai'
+import {AiFillTwitterCircle,AiFillLinkedin} from 'react-icons/ai'
 import Bunny from '../public/bunny.png';
 import C1 from '../public/cthralu-1.png'
-import C2 from '../public/cthralu-2.png'
+
 import P1 from '../public/portfolio-1.png'
 
 
@@ -19,9 +19,10 @@ export default function Home() {
 
   This component comes with some `rtl` classes. Please remove them if they are not needed in your project.
 */}
-
-<section className="overflow-hidden bg-gray-900 sm:grid sm:grid-cols-2">
-  <div id='T1' className="p-8 md:p-12 lg:px-16 lg:py-24">
+<div className="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:gap-8">
+  <div className=" rounded-lg bg-gray-900 lg:col-span-2">
+    {/* link */}
+    <div id='T1' className="p-8 md:p-12 lg:px-16 lg:py-18">
   <div className="mx-auto max-w-3xl text-center">
       <h1
         className="bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-3xl font-extrabold text-transparent sm:text-5xl"
@@ -58,13 +59,25 @@ export default function Home() {
       </div>
     </div>
   </div>
-<div className='relative mx-auto bg-gradient-to-b from-teal-600 to-violet-500 rounded-full w-80 h-80 mt-20  '>
+
+  </div>
+  <div className=" rounded-lg bg-gray-900 mb-6">
+    {/* image */}
+    <div className='relative mx-auto bg-gradient-to-b from-teal-600 to-violet-500 rounded-full w-80 h-80 mt-20  '>
   <Image 
     alt="Student"
     src={Bunny}
     className="h-56 w-full object-cover sm:h-full"
   />
   </div>
+
+  </div>
+</div>
+
+<section className="overflow-hidden bg-gray-900 sm:grid sm:grid-cols-2">
+  
+  {/* ---------------- */}
+
 </section>
 
 
