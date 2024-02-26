@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import {AiFillTwitterCircle,AiFillLinkedin} from 'react-icons/ai'
 import Bunny from '../public/bunny.png';
 import C1 from '../public/cthralu-1.png'
+import C3 from '../public/Screenshot (94).png'
 
 import P1 from '../public/portfolio-1.png'
 
@@ -241,21 +242,21 @@ export default function Home() {
 <div className="grid grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
   <div className=" rounded-lg bg-gray-900">
     {/* project-1 */}
-    <a href="https://cthralu.netlify.app/" target='_blank'>
+    <a href="https://meubles-rohith.netlify.app/" target='_blank'>
     <article className="group">
   <Image
     alt="Lava"
-    src={C1}
+    src={C3}
     className="h-56 w-full border rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
   />
   <div className="p-4">
-      <h3 className="text-lg font-medium text-gray-300">C-thralu</h3>
+      <h3 className="text-lg font-medium text-gray-300">Meubles</h3>
     <div className='mt-2 line-clamp-3 text-sm/relaxed text-gray-500'>
     <p >
-      C-thralu web Application shows the movie details
+      Meubles web Application to buy furnitures
       </p>
         <p>It is API based application</p>
-        <p>Using ReactJs and Tailwindcss majiorly</p>
+        <p>Using ReactJs , Redux and Tailwindcss majiorly</p>
         <p>Fully Responsive website</p>
     </div>  
   </div>
