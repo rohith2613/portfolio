@@ -6,8 +6,9 @@ import {AiFillTwitterCircle,AiFillLinkedin} from 'react-icons/ai'
 import Bunny from '../public/bunny.png';
 import C1 from '../public/cthralu-1.png'
 import C3 from '../public/Screenshot (94).png'
-
+import C4 from '../public/Screenshot (92).png'
 import P1 from '../public/portfolio-1.png'
+import C5 from '../public/Screenshot (95).png'
 
 
 
@@ -256,7 +257,7 @@ export default function Home() {
       Meubles web Application to buy furnitures
       </p>
         <p>It is API based application</p>
-        <p>Using ReactJs , Redux and Tailwindcss majiorly</p>
+        <p>Using ReactJs , Redux , Tailwindcss and daisyUI majorly</p>
         <p>Fully Responsive website</p>
     </div>  
   </div>
@@ -282,6 +283,57 @@ export default function Home() {
         <p>Next.js is used in this project</p>
         <p>Using ReactJs and Tailwindcss majiorly</p>
         <p>Fully Responsive website</p>
+    </div>  
+  </div>
+</article>
+</a>
+  </div>
+  
+</div>
+{/* ANOTHER TWO PROJECTS */}
+<div className="grid grid-cols-1 mt-2 gap-4 lg:grid-cols-2 lg:gap-8">
+  <div className=" rounded-lg bg-gray-900">
+    {/* project-3 */}
+    <a href="https://githubuser-rohith.netlify.app/" target='_blank'>
+    <article className="group">
+  <Image
+    alt="Lava"
+    src={C4}
+    className="h-56 w-full border rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+  />
+  <div className="p-4">
+      <h3 className="text-lg font-medium text-gray-300">GitHub Users</h3>
+    <div className='mt-2 line-clamp-3 text-sm/relaxed text-gray-500'>
+    <p >
+      GitHub Users web Application to search users and info about them.
+      </p>
+        <p>It is API based application</p>
+        <p>Using ReactJs and Tailwindcss</p>
+        <p>Fully Responsive website</p>
+    </div>  
+  </div>
+</article>
+</a>
+ 
+  </div>
+  <div className=" rounded-lg bg-gray-900">
+    {/* project-4 */}
+    <a href="https://comforting-pony-d62e71.netlify.app/" target='_blank'>
+    <article className="group  ">
+  <Image
+    alt="Lava"
+    src={C5}
+    className="h-56 border w-full rounded-xl object-cover shadow-xl transition group-hover:grayscale-[50%]"
+  />
+  <div className="p-4">
+      <h3 className="text-lg font-medium text-gray-300">Company Website</h3>
+    <div className='mt-2 line-clamp-3 text-sm/relaxed text-gray-500'>
+    <p >
+      I got assignment from company to create this site
+      </p>
+        <p>HTML,CSS,Js and Tailwindcss is used in this project</p>
+        
+        <p>Not Fully Responsive website</p>
     </div>  
   </div>
 </article>
